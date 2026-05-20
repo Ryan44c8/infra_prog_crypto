@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: crypto-test
-        image: ghcr.io/<username>/crypto-test:latest
+        image: ghcr.io/ryan44c8/crypto-test:c1caa0858ff67d09ab71ccb94bed486968e87921
         ports:
         - containerPort: 3000

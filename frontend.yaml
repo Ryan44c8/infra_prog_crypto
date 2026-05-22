@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: crypto-frontend
-          image: ghcr.io/USERNAME/crypto-test:latest
+          image: ghcr.io/ryan44c8/crypto-test:4d027ff2c5e5efb61b0b5bd447b9c2a133627dfc
           # Remplace USERNAME par ton compte GHCR
           ports:
             - containerPort: 3000
